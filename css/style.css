@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Cormorant&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body{
+	font-family: 'Cormorant', serif;
+	font-size: 25px;
+	margin: 0px;
+	background-color: rgba(64, 100, 68, 0.3);
+}
+
+h1,h2{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 40px;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Barlow Condensed', sans-serif;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	background-color: #231914;
+}
